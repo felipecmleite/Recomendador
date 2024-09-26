@@ -1,0 +1,10 @@
+html, body {
+  justify-content: center;
+  margin: 30px;
+  padding: 0;
+  background-color: #E8F9D5;
+}
+canvas {
+  display: block;
+}
+
