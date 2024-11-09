@@ -57,13 +57,13 @@ function geraRecomendação(orçamento, NoiteQuente, Brasil) {
   if(orçamento >= 11) {
     if (orçamento >= 21) {
       if (NoiteQuente && Brasil) {
-        return "Churrasco de picanha 🥩"
+        return "Churrasco de picanha 🥩, arroz, farofa e vinagrete"
         } else {
           if (NoiteQuente) {
           return "Poke Havaiano🍚";
         } else {
           if(Brasil) {
-          return "Moqueca baiana 🥥"
+          return "Moqueca baiana 🥥, arroz e salada"
         } else {
           return "Filé com fritas🍟"
         }  
@@ -80,7 +80,7 @@ function geraRecomendação(orçamento, NoiteQuente, Brasil) {
          return "Espaguete ao limão 🍋";
          } else {
            if (Brasil) {
-             return "Estrogonofe com batata palha 🍲";
+             return "Estrogonofe com batata palha 🍲 e arroz🍚";
            } else {
              return "Schwarma 🥙"
            }
