@@ -35,7 +35,7 @@ let campoBrasil
 function setup() {
   createCanvas(800, 400);
   createElement("h2", "Recomendador de ideias para o jantar");
-  createSpan("Orçamento (sem bebida em R$) ");
+  createSpan("Budget (sem bebida entre R$ 10,00-30,00) ");
   campoOrçamento = createInput(15);
   campoNoiteQuente = createCheckbox("Noite quente?")  ;
   campoBrasil = createCheckbox("Comida brasileira?");
