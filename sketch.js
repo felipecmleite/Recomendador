@@ -13,7 +13,7 @@
 //Caldinho de feijão, nao-quente e brasil
 
 //Até 21
-//Schwarma, não-quente, não-brasil
+//Sch(a)warma, não-quente, não-brasil
 //Espaguete, quente, não-brasil
 //Estrogonofe, não-quente,brasil
 //Tacacá, quente, brasil
@@ -82,7 +82,7 @@ function geraRecomendação(orçamento, NoiteQuente, Brasil) {
            if (Brasil) {
              return "Estrogonofe com batata palha 🍲 e arroz🍚";
            } else {
-             return "Schwarma 🥙"
+             return "Sch(a)warma 🥙"
            }
            
          }
